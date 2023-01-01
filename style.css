@@ -1,8 +1,9 @@
+/*==========css variables==========*/
 :root
 {
     --color-primary:#4d5c74;
-    --color-text:rgb(196, 186, 174);
-    --color-bg: rgb(178, 223, 249);;
+    --color-text: rgb(196, 186, 174);
+    --color-bg: rgb(178, 223, 249);
 
 }
 
