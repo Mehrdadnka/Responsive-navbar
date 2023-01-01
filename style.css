@@ -6,7 +6,7 @@
     --color-bg: rgb(178, 223, 249);
 
 }
-
+/*==========General design==========*/
 *
 {
     margin: 0px;
@@ -17,6 +17,7 @@ body
 {
     background-color: var(--color-bg);
 }
+/*==========NAV==========*/
 nav
 {
     display: flex;
@@ -52,6 +53,7 @@ nav
     font-weight: bold;
     font-size: 14px;
 }
+/*==========NAV burger button==========*/
 .burger
 {
     display: none;
@@ -66,6 +68,7 @@ nav
     transition: all 0.5s ease;
 
 }
+/*==========Medium devices==========*/
 @media screen and (max-width:1024px) 
 {
     .nav-links
@@ -73,6 +76,7 @@ nav
         width: 60%;
     }    
 }
+/*==========Small devices==========*/
 @media screen and (max-width:768px) 
 {
     body
@@ -106,7 +110,7 @@ nav
 {
     transform: translateX(0%);
 }
-
+/*==========animating burger==========*/
 @keyframes navLinkFade {
     from
     {
@@ -132,6 +136,7 @@ nav
 {
     transform: rotate(45deg) translate(-5px,-6px);
 }
+/*==========Footer==========*/
 footer
 {
 
